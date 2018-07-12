@@ -1,0 +1,22 @@
+{
+  "name": "wuxp_npm_types",
+  "version": "0.0.1",
+  "description": "types defined",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node ./scripts/publish.js",
+    "publish:npm": "lerna publish --npm-tag=0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengwuxp/wuxp_npm_types.git"
+  },
+  "author": "wuxp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengwuxp/wuxp_npm_types/issues"
+  },
+  "homepage": "https://github.com/fengwuxp/wuxp_npm_types#readme",
+  "devDependencies": {
+  }
+}

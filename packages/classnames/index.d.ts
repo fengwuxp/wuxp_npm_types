@@ -1,5 +1,6 @@
 // Custom type definitions for classnames master branch
 // Project: https://github.com/JedWatson/classnames
+
 declare module "classnames" {
     type ClassValue = string | number | ClassDictionary | ClassArray | undefined | null | false
 
@@ -12,7 +13,7 @@ declare module "classnames" {
     interface ClassArray extends Array<ClassValue> {} // tslint:disable-line no-empty-interface
     type ClassNamesFn = (...classes: ClassValue[]) => string
 
-    const classNames: ClassNamesFn
+    const classNames: ClassNamesFn;
 
     export default classNames
 }
